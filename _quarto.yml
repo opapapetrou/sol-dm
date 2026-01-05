@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: docs
 
 execute:
   execute-dir: project # This makes all scripts run from the project root
