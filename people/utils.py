@@ -13,8 +13,9 @@ def is_truthy(v):
     return False
 
 
-def createPubList(data,filter_text, affiliation=None):
+def createPubList(data, filter_text, affiliation=None):
     html = []
+
     for sec in order:
         pubs = data.get(sec, [])
         section_title = sec.replace("PUB", "").replace("_", " ").capitalize()
@@ -25,7 +26,7 @@ def createPubList(data,filter_text, affiliation=None):
             # Check if filter_text is NOT in the title
             if filter_text.strip() and filter_text not in title:
                 continue
-            if affiliation is None or p.get("affiliation","notgiven") not in affiliation:
+            if affiliation is not None and p.get("affiliation","notgiven") not in affiliation:
                 continue
             hl = is_truthy(p.get("highlight"))
             cls = ' class="highlight"' if hl else ""
