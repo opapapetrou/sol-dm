@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: _site
+
+execute:
+  execute-dir: project # This makes all scripts run from the project root
+
+# This tells Quarto to look for this file and
+# include it in every .qmd automatically
+params:
+  setup_file: "_setup.qmd"
+
+website:
+  title: "Scalable Online Data Management (SOL-DM) group, TU/e"
+  navbar:
+    title: false
+    pinned: true
+    logo: logos/soldm.png
+    left:
+      - href: index.qmd
+        text: Home
+      - href: people.qmd
+        text: People
+      - href: publications.qmd
+        text: Publications
+      - href: projects.qmd
+        text: Projects
+      - href: teaching.qmd
+        text: Teaching
+      - href: vacancies.qmd
+        text: Vacancies
+      - href: links.qmd
+        text: Links
+    tools:
+      - icon: logos/tuelogo.png
+        href: https://www.tue.nl
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css

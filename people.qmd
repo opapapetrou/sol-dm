@@ -1,0 +1,154 @@
+---
+title: "People"
+---
+```{python}
+#| echo: false
+#| output: asis
+#| include: true
+#| dependson: ["data/people.json", "people/OdysseasPapapetrou.qmd", "scripts/OdysseasPapapetrou.qmd"]
+import json
+from html import escape
+import random
+from PIL import Image, ImageDraw, ImageFont, ImageFilter
+
+with open("data/people.json", "r", encoding="utf-8") as f:
+    data = json.load(f)
+
+def create_tight_text(text, filename):
+    # 1. Configuration
+    font_size = 120
+    padding = 1 
+    
+    try:
+        # Using a bold font often helps human readability while noise confuses OCR
+        font = ImageFont.truetype("arialbd.ttf", font_size)
+    except:
+        font = ImageFont.load_default()
+
+    # 2. Determine exact text size to eliminate whitespace
+    # Create a dummy draw object to measure
+    dummy_img = Image.new('RGB', (1, 1))
+    dummy_draw = ImageDraw.Draw(dummy_img)
+    bbox = dummy_draw.textbbox((0, 0), text, font=font)
+    
+    # Calculate width and height based on the bounding box
+    text_w = bbox[2] - bbox[0]
+    text_h = bbox[3] - bbox[1]
+    
+    # Create canvas just large enough for text + small padding
+    width = text_w + (padding * 2)
+    height = text_h + (padding * 2)
+    
+    img = Image.new('RGB', (width, height), color=(255, 255, 255))
+    draw = ImageDraw.Draw(img)
+
+    # 3. Draw text (using bbox offset to ensure it starts at padding)
+    draw.text((padding - bbox[0], padding - bbox[1]), text, fill=(0, 0, 0), font=font)
+    img.save(filename)
+
+def create_tight_noisy_text(text, filename):
+    # 1. Configuration
+    font_size = 80
+    padding = 3
+    
+    try:
+        # Using a bold font often helps human readability while noise confuses OCR
+        font = ImageFont.truetype("arialbd.ttf", font_size)
+    except:
+        font = ImageFont.load_default()
+
+    # 2. Determine exact text size to eliminate whitespace
+    # Create a dummy draw object to measure
+    dummy_img = Image.new('RGB', (1, 1))
+    dummy_draw = ImageDraw.Draw(dummy_img)
+    bbox = dummy_draw.textbbox((0, 0), text, font=font)
+    
+    # Calculate width and height based on the bounding box
+    text_w = bbox[2] - bbox[0]
+    text_h = bbox[3] - bbox[1]
+    
+    # Create canvas just large enough for text + small padding
+    width = text_w + (padding * 2)
+    height = text_h + (padding * 2)
+    
+    img = Image.new('RGB', (width, height), color=(255, 255, 255))
+    draw = ImageDraw.Draw(img)
+
+    # 3. Draw text (using bbox offset to ensure it starts at padding)
+    draw.text((padding - bbox[0], padding - bbox[1]), text, fill=(0, 0, 0), font=font)
+ 
+    # 4. Apply Subtle Distortion (Warping)
+    # We keep the distortion subtle so it doesn't push text out of the frame
+    def transform_mesh(w, h):
+        s = 1 # Strength of warp
+        return (random.uniform(-s, s), random.uniform(-s, s), 
+                random.uniform(-s, s), h + random.uniform(-s, s), 
+                w + random.uniform(-s, s), h + random.uniform(-s, s), 
+                w + random.uniform(-s, s), random.uniform(-s, s))
+
+    img = img.transform((width, height), Image.QUAD, transform_mesh(width, height), fillcolor=(255, 255, 255))
+
+    # 5. Add "Micro-Noise" (Lines that cross the font strokes)
+   # draw = ImageDraw.Draw(img)
+   # for _ in range(5):
+   #     # Draw lines only within the text area
+   #     lx1 = random.randint(padding, width - padding)
+   #     ly1 = random.randint(padding, height - padding)
+   #     lx2 = lx1 + random.randint(-50, 50)
+   #     ly2 = ly1 + random.randint(-10, 10)
+   #     draw.line((lx1, ly1, lx2, ly2), fill=(150, 150, 150), width=1)
+
+    # 6. Final Touch
+    #img = img.filter(ImageFilter.SMOOTH_MORE) # Slight blur to fuzz edges
+    img.save(filename)
+    print(f"Created tight image: {filename} ({width}x{height})")
+
+def render_person(p):
+    name = p.get("Name","")
+    role = p.get("Role","")
+    desc = p.get("Description","")
+    photo = p.get("Photo","")
+    url = p.get("url","")
+    cds = p.get("CD", []) or []
+
+    # Use HTML <a> tag for the link to work inside the HTML return string
+    if url:
+        name_html = f'<a href="{escape(url)}" style="text-decoration: link;">{escape(name)}</a>'
+    else:
+        name_html = escape(name)
+
+    cd_html = ""
+    if cds:
+        random.shuffle(cds)
+        newlist=[]
+        cnt = 0
+        for c in cds:
+            filename = f"people/m/{escape(name)}_{cnt}.png"
+            create_tight_text(c, filename)
+            newlist.append(filename)
+            cnt += 1
+
+        imgs = "".join(
+            f"<img class='cd-img' src='{escape(f)}'>"
+            for f in newlist
+        ) 
+
+        if (len(imgs)>0):
+            cd_html = f"<b>Contact details</b> (order as appropriate)<br><div class='cd-strip'>{imgs}</div>"
+    return f"""
+<div class="person-card">
+  <img class="person-photo" src="{escape(photo)}">
+  <div class="person-name">{name_html}</div>
+  <div class="person-role">{escape(role)}</div>
+  <div class="person-desc">{desc}</div>
+  {cd_html}
+</div>
+"""
+
+def render_section(title, people):
+    cards = "".join(render_person(p) for p in people)
+    return f"<h2>{title}</h2><div class='people-grid'>{cards}</div>"
+
+print(render_section("Active", data.get("PEOPLEActive", [])))
+print(render_section("Alumni", data.get("PEOPLEAlumni", [])))
+```

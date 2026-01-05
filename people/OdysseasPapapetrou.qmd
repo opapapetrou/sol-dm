@@ -1,0 +1,61 @@
+---
+title: "Odysseas Papapetrou"
+---
+::: {.panel-tabset}
+## Profile
+### Professional appointments
+- July 2025 - current: Associate Professor at [Eindhoven University of Technology](https://www.tue.nl), leader of Scalable Online Data Management group
+- June 2025 - current: Affiliated Researcher at [Archimedes Research Unit](https://archimedesai.gr/en/), [Athena Research Center](https://www.athenarc.gr), Greece
+- July 2018 - June 2025: Assistant Professor at [Eindhoven University of Technology](https://www.tue.nl)
+- Aug. 2017 - June 2018: Marie Skłodowska-Curie EPFL Fellow, [EPFL](https://www.epfl.ch/)
+- Jan. 2016 - Aug. 2017: Research and Teaching Associate at [Dias lab, EPFL](https://www.epfl.ch/labs/dias/)
+- April 2011 - Dec. 2015: Researcher at [SoftNet lab](https://www.softnet.tuc.gr/en), [Technical University of Crete](https://www.tuc.gr/)
+- Sept. 2012 - Sept. 2013: Adjunct Lecturer at [Open University of Cyprus](https://www.ouc.ac.cy/index.php/en/)
+- Oct. 2005 - March 2011: Research associate at [L3S Research Center](https://www.l3s.de), [University of Hannover](https://www.uni-hannover.de/en/)
+- 2004 - 2005: Software consultant, [NetU Consultants Ltd](https://www.netugroup.com), Cyprus
+- 2002 - 2003: Research Assistant, [Department of Computer Science](https://www.cs.ucy.ac.cy), [University of Cyprus](https://www.ucy.ac.cy)
+
+### Education
+- PhD, Computer Science, [University of Hannover](https://www.uni-hannover.de/en/) and [L3S Research Center](https://www.l3s.de), 2011
+- MSc, Computer Science, [Saarland University](https://www.uni-saarland.de/en/home.html) and [Max Planck Institute for Informatics](https://www.mpi-inf.mpg.de/home), 2005
+- MSc, Advanced Information Technologies, [University of Cyprus](https://www.ucy.ac.cy), 2004
+- BSc, Computer Science, [University of Cyprus](https://www.ucy.ac.cy), 2002
+
+### Research focus
+My ambition is to unlock the full potential of data, by providing sustainable methods for online analytics. Online analytics comes with strict performance requirements: the results need to be made available almost instantaneously, to allow for interactivity. Sustainability, on the other hand, refers to different properties of the desired solutions: (a) low cost, (b) scalability with the data size and velocity, (c) ease of use at different situations. I have key contributions towards this direction, by building (a) easy-to-use data synopses that allow efficient compact summarization and analytics, and, (b) streaming algorithms, that facilitate processing of the data at line speed.
+
+### Recent Professional Service
+- 2027: PC member for SIGMOD'27.
+- 2026: PC member for EDBT'26, Light Load Reviewer for VLDB'26.
+- 2025: PC member for VLDB Demonstration track, ICDE Industrial track, EDBT; co-chair for MulTiSA@ICDE'25; co-chair for interactive session *The role of Data Management in the Era of AI* at *NWO ICT.Open'25*.
+- 2024: Publication and proceedings chair for ICDE; co-chair for MulTiSA@ICDE'24; PC member for SIGMOD, EDBT; rapid response reviewer for VLDB.
+
+### Recent Awards and Recognitions
+- April 2025: SIGMOD Research Highlight Award for [OmniSketch](https://sigmodrecord.org/2025/04/16/omnisketch-streaming-data-analytics-with-arbitrary-predicates/).
+- April 2025: [Distinguished Reviewer Award](https://2025.sigmod.org/sigmod_awards.shtml) at SIGMOD'25.
+- April 2025: [PC Honorable Mention](https://edbticdt2025.upc.edu/?contents=honorable-mentions-EDBT.html) at EDBT'25.
+- August 2024: Our work [OmniSketch](https://dl.acm.org/doi/10.14778/3632093.3632098) received the best paper award at VLDB'24.
+
+### Contact details
+- Phone: +31 40 247 6087
+- Visiting address: MetaForum 7.090, Eindhoven University of Technology, 5600 MB, Eindhoven, The Netherlands
+- Postal address: M&CS department, Department of Mathematics and Computer Science, PO Box 513, 5600 MB Eindhoven, The Netherlands
+
+## Publications
+```{python}
+#| echo: false
+#| output: asis
+import sys
+import os
+import json
+from html import escape
+from IPython.display import HTML, display
+from utils import createPubList
+
+with open("../data/publications.json", "r", encoding="utf-8") as f:
+    data = json.load(f)
+
+htmlResult = createPubList(data,"Papapetrou")
+display(HTML("\n".join(htmlResult)))
+```
+:::

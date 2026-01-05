@@ -1,0 +1,17 @@
+---
+title: "SOL-DM publications"
+---
+```{python}
+#| echo: false
+#| output: asis 
+import json
+from html import escape
+from IPython.display import HTML, display
+from people.utils import createPubList
+
+with open("data/publications.json", "r", encoding="utf-8") as f:
+    data = json.load(f)
+
+htmlResult = createPubList(data," ", "tue")
+display(HTML("\n".join(htmlResult)))
+```

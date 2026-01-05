@@ -1,0 +1,17 @@
+---
+title: "Links"
+---
+
+## The group is a member of the following organizations
+- <a href="https://dai.win.tue.nl">Data and AI cluster (DAI)</a>
+- <a href="https://www.tue.nl/en/our-university/departments/mathematics-and-computer-science">Department of Mathematics and Computer Science (MCS)</a>
+- <a href="https://www.tue.nl/en/research/institutes/eindhoven-artificial-intelligence-systems-institute">Eindhoven AI Systems institute (EAISI)</a>
+- <a href="https://www.tue.nl/en/">Eindhoven University of Technology (TU/e)</a>
+
+## Individual affiliations of group members
+- <a href="https://archimedesai.gr/en/">Archimedes Unit</a> at <a href="https://www.athenarc.gr/en">Athena Research Center</a>
+
+## Frequent/ongoing collaborations
+- <a href="https://www.tue.nl/en/research/research-groups/data-science/data-and-artificial-intelligence/database-group">Database group</a> at the Eindhoven University of Technology
+- <a href="https://www.tue.nl/en/research/research-groups/data-science/data-and-artificial-intelligence/data-mining">Data mining</a> group at the Eindhoven University of Technology
+- <a href="https://www.athenarc.gr/en/imsi">Information Management Systems Institute</a> at <a href="https://www.athenarc.gr/en">Athena Research Center</a>

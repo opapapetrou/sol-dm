@@ -1,0 +1,7 @@
+```{python}
+#| echo: false
+import sys
+import os
+# Force the root into the path
+sys.path.append(os.path.abspath(".")) 
+from utils import *

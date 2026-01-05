@@ -1,0 +1,41 @@
+---
+title: "Projects"
+---
+
+## Active projects
+- **NOW: Synopses for data streams** — We design novel synopses for summarization of 
+fast-paced data streams. Recent examples of our work include OmniSketch (VLDB'24, VLDBJ'26) and 
+SpatialSketch (EDBT'25). Most of our code is <a href="https://synlib.github.io">open-source</a>. 
+The project is partially funded by EU Horizon Europe programme (STELAR, No. 101070122), NextGenerationEU 
+(ARCHIMEDES Unit, OPS 5154714), and TU/e. 
+<br>Key international collaborators: <a href="https://minosng.github.io"> Minos Garofalakis</a>.
+- **Multivariate Similarity search** — Identifying similarities between data objects in a dataset is a fundamental task in data science, 
+with applications across a wide range of disciplines. The group develops a new class of algorithms for similarity search, 
+focusing on (i) high-order similarities, which involve relationships among three or more time series, 
+and, (ii) pairwise similarity measures for multivariate (multi-channel) time series. Examples of our work include
+MSIndex (VLDB'26) and Correlation Detective (VLDBJ'23, VLDB'22). 
+The project is partially funded by EU Horizon Europe programme (STELAR, No. 101070122).
+<br>Key international collaborators:
+ <a href="https://helios2.mi.parisdescartes.fr/~themisp/">Themis Palpanas</a>,
+  <a href="https://www.paparrizos.org/">John Paparrizos</a>.
+
+## Past projects
+- **STELAR: Spatio-TEmporal Linked data tools for the AgRi-food data space** — 
+<a href="https://stelar-project.eu">STELAR</a> developed a knowledge lake management system fit for today's agrifood space.
+The project received funding from the EU Horizon Europe programme.
+- **SmartDataLake: Sustainable Data Lakes for Extreme-Scale Analytics** — 
+SmartDataLake designed, developed and evaluated novel approaches and techniques for 
+extreme-scale analytics over Big Data Lakes, facilitating the journey from raw data 
+to actionable insights. The project was funded by EU H2020 programme.
+
+## Software
+- **SynLib** — We are maintaining a repository of open-source implementations of synopses (mostly in Java) for analyzing streaming data.
+Get it <a href="https://synlib.github.io">here</a>. Contact us if you are interested to hear more.
+- **OmniSketch** — <a href="https://github.com/wiegerpunter/omni-deletes">OmniSketch</a> synopsis supports analytics over fast-paced 
+data streams, similar in nature to the traditional OLAP analytics in relational databases – i.e., 
+with aggregates and selection predicates. The last version also provides support for 
+streams with deletes (the turnstile model).
+- **Correlation Detective** — <a href="https://correlationdetective.com">Correlation Detective</a> is the only scalable solution for identifying 
+high-order correlations in large datasets. You can use it online for small datasets, or download it and use it 
+locally for big datasets. Contact us if you would like to see a guided demo on your own data.
+

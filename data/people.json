@@ -1,0 +1,53 @@
+{
+  "PEOPLEActive": [
+    { "Name": "Odysseas Papapetrou",
+      "Role": "Group leader",
+      "Description": "Odysseas Papapetrou is an Associate Professor in the Department of Mathematics and Computer Science at TU/e, where he leads the <b>Scalable Online Data Management (SOL-DM) group</b>. His research focuses on streaming data management, large-scale datasets, and time-series analytics.",
+      "Photo": "people/odysseas.jpeg",
+      "CD": ["o DOT papape","trou AT tue DOT nl"],
+      "location": "MetaForum 7.090",
+      "url": "people/OdysseasPapapetrou.qmd"
+    },
+    { "Name": "Wieger Punter",
+      "Role": "PhD student",
+      "Description": "TODO: text. Include funding",
+      "Photo": "people/WiegerPunter.webp",
+      "CD": ["w DOT r DOT pun", "ter AT tue DOT nl"]
+    },
+    { "Name": "Wouter van Lil",
+      "Role": "PhD student",
+      "Description": "TODO: text. Include funding",
+      "Photo": "people/WouterVanLil.jpg",
+      "CD": ["w DOT e DOT v DOT lil AT tu","e DOT nl"]
+    },
+    { "Name": "Panos Choudalakis",
+      "Role": "PhD student",
+      "Description": "TODO: text. Include funding",
+      "Photo": "people/nophoto.png",
+      "CD": ["p DOT choudalakis AT t","ue DOT nl"]
+    },
+    { "Name": "George Klioumis",
+    "Role": "PhD student",
+    "Description": "TODO: text. Include funding",
+    "Photo": "people/nophoto.png",
+    "CD": []
+    },
+    { "Name": "Gizem Genç",
+      "Role": "Administrative assistant",
+      "Description": "Administrative assistant - DAI cluster and SOL-DM group.",
+      "Photo": "people/nophoto.png"
+    },
+    { "Name": "Julie Pham",
+      "Role": "Administrative assistant",
+      "Description": "Administrative assistant - DAI cluster and SOL-DM group.",
+      "Photo": "people/nophoto.png"
+    }
+  ],
+  "PEOPLEAlumni": [
+    { "Name": "Jens d'Hondt",
+      "Role": "PhD student (graduated December 2025)",
+      "Description": "Thesis:<a href=\"studentTheses/JensPhDThesis.pdf\"> Effective and Efficient Multivariate Similarity Search</a><br><b>Position after graduation:</b> Barcelona Supercomputing Center.",
+      "Photo": "people/JensDHondt.jpg"
+    }
+  ]
+}

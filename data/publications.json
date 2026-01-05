@@ -1,0 +1,209 @@
+{
+  "PUBRecent_publications": [
+    {"title": "Wieger Punter, Odysseas Papapetrou, Minos Garofalakis: <b>OmniSketch: Multi-Dimensional Update Stream Analytics with Arbitrary Predicates.</b> VLDB Journal (to appear)", "url": "", "note": "Special Issue for Best Papers of VLDB 2024.", "highlight":"true", "affiliation":"tue"},
+    {"title": "Jens d'Hondt, Teun Kortekaas, Odysseas Papapetrou, Themis Palpanas: <b>MS-Index: Fast Top-k Subsequence Search for Multivariate Time Series under Euclidean Distance.</b> VLDB'26", "url": "", "affiliation":"tue"},
+    {"title": "Paparrizos, J., Li, H., Yang, F., Wu, K., d’Hondt, J. E., and Papapetrou, O.: <b> A Survey on Time-Series Distance Measures.</b> In Data Series Management and Analytics: From Time Series to High-dimensional Vectors, edited by T. Palpanas and K. Zoumpatianos, 2025.", "url": "", "affiliation":"tue"},
+    {"title": "Wieger Punter, Odysseas Papapetrou, Minos Garofalakis: <b>OmniSketch: Streaming Data Analytics with Arbitrary Predicates.</b> SIGMOD Record'25", "url": "https://sigmodrecord.org/2025/04/16/omnisketch-streaming-data-analytics-with-arbitrary-predicates/", "note": "SIGMOD Research Highlight Award!", "highlight":"true", "affiliation":"tue"},
+    {"title": "Jens d'Hondt, Haojun Li, Fan Yang, Odysseas Papapetrou, John Paparrizos: <b>A Structured Study of Multivariate Time-Series Distance Measures.</b> SIGMOD'25", "url": "https://dl.acm.org/doi/10.1145/3725258", "affiliation":"tue"},
+    {"title": "Jacco Johannes Egbert Kiezebrink, Wieger R. Punter, Odysseas Papapetrou, Kevin Verbeek: <b>Synopses for Summarizing Spatial Data Streams.</b> EDBT'25", "url": "https://openproceedings.org/2025/conf/edbt/paper-87.pdf", "affiliation":"tue"}
+  ],
+  "PUBJournals": [
+    {"title": "Wieger Punter, Odysseas Papapetrou, Minos Garofalakis: <b>OmniSketch: Multi-Dimensional Update Stream Analytics with Arbitrary Predicates.</b> VLDB Journal (to appear)", "url": "", "note": "Special Issue for Best Papers of VLDB 2024.", "highlight":"true", "affiliation":"tue"},
+    {"title": "Paparrizos, J., Li, H., Yang, F., Wu, K., d’Hondt, J. E., and Papapetrou, O.: <b> A Survey on Time-Series Distance Measures.</b> In Data Series Management and Analytics: From Time Series to High-dimensional Vectors, edited by T. Palpanas and K. Zoumpatianos, 2025.", "url": "", "affiliation":"tue"},
+    {"title": "Wieger Punter, Odysseas Papapetrou, Minos Garofalakis: <b>OmniSketch: Streaming Data Analytics with Arbitrary Predicates.</b> SIGMOD Record'25", "url": "https://sigmodrecord.org/2025/04/16/omnisketch-streaming-data-analytics-with-arbitrary-predicates/", "note": "SIGMOD Research Highlight Award!", "highlight":"true", "affiliation":"tue"},
+    {"title": "Jens d'Hondt, Koen Minartz, Odysseas Papapetrou: <b>Efficient detection of multivariate correlations with different correlation measures.</b>  VLDB Journal, 2023", "url": "https://www.win.tue.nl/~opapapetrou/papers/CD_differentmeasures.pdf", "affiliation":"tue"},
+    {"title": "Ioannis Demertzis, Stavros Papadopoulos, Odysseas Papapetrou, Antonios Deligiannakis, Minos Garofalakis, Charalampos Papamanthou: <b>Practical Private Range Search In Depth.</b> ACM Trans. Database Syst. 43, 1, 2018", "url": "https://opapapetrou.win.tue.nl/papers/tods18.pdf", "note": "Invited after suggestion of the SIGMOD'16 PC Chair!", "highlight":"true", "affiliation":"tue"},
+    {"title": "Odysseas Papapetrou, Minos Garofalakis: <b>Monitoring Distributed Fragmented Skylines.</b> Distributed and Parallel Databases (2018)", "url": "https://opapapetrou.win.tue.nl/papers/dapd18.pdf", "affiliation":"tue"},
+    {"title": "Odysseas Papapetrou, Minos N. Garofalakis, Antonios Deligiannakis: <b>Sketching distributed sliding-window data streams.</b> VLDB J. 24(3): 345-368 (2015)", "url": "https://opapapetrou.win.tue.nl/papers/vldbj15.pdf"},
+    {"title": "Odysseas Papapetrou, Wolf Siberski, Stefan Siersdorfer: <b>Efficient model sharing for scalable collaborative classification.</b> Peer-to-Peer Networking and Applications 8(3): 384-398 (2015)", "url": "https://opapapetrou.win.tue.nl/papers/Papapetrou2015_Article_EfficientModelSharingForScalab.pdf"},
+    {"title": "Stavros Christodoulakis, Minos Garofalakis, Euripides G.M. Petrakis, Antonios Deligiannakis, Vasilis Samoladas, Ekaterini Ioannou, Odysseas Papapetrou, Stelios Sotiriadis. <b>Data Management Research at the Technical University of Crete.</b> SIGMOD Record, 42(4):61-66, 2013"},
+    {"title": "Odysseas Papapetrou, Wolf Siberski, Norbert Fuhr. <b>Decentralized Probabilistic Text Clustering.</b> Transactions on Knowledge and Data Engineering (TKDE), 24(10): 1848-1861, 2012, IEEE", "url": "https://opapapetrou.win.tue.nl/papers/tkde2011-clustering.pdf"},
+    {"title": "Odysseas Papapetrou, Wolf Siberski, Wolfgang Nejdl. <b>PCIR: Combining DHTs and Peer Clusters for Efficient Full-text P2P Indexing.</b> Computer Networks 54(12): 2019-2040, 2010, Elsevier", "url": "https://opapapetrou.win.tue.nl/papers/pcir.pdf"},
+    {"title": "Odysseas Papapetrou, Wolf Siberski, Wolfgang Nejdl. <b>Cardinality estimation and dynamic length adaptation for Bloom filters.</b> Distributed and Parallel Databases 28(2-3):119-156, Springer, 2010", "url": "https://opapapetrou.win.tue.nl/papers/Bloomfilters-DAPD.pdf"},
+    {"title": "George A. Papadopoulos, Aristos Stavrou, Odysseas Papapetrou. <b>An Implementation Framework for Software Architectures Based on the Coordination Paradigm.</b> Science of Computer Programming (SCP) 60(1): 27-67 (2006)"}
+  ],
+  "PUBConferences": [
+    {
+      "title": "Jens d'Hondt, Teun Kortekaas, Odysseas Papapetrou, Themis Palpanas: <b>MS-Index: Fast Top-k Subsequence Search for Multivariate Time Series under Euclidean Distance.</b> VLDB'26",
+      "url": "", "affiliation":"tue"
+    },
+    {
+      "title": "Jens d'Hondt, Haojun Li, Fan Yang, Odysseas Papapetrou, John Paparrizos: <b>A Structured Study of Multivariate Time-Series Distance Measures.</b> SIGMOD'25",
+      "url": "https://dl.acm.org/doi/10.1145/3725258", "affiliation":"tue"
+    },
+    {
+      "title": "Jacco Johannes Egbert Kiezebrink, Wieger R. Punter, Odysseas Papapetrou, Kevin Verbeek: <b>Synopses for Summarizing Spatial Data Streams.</b> EDBT'25",
+      "url": "https://openproceedings.org/2025/conf/edbt/paper-87.pdf", "affiliation":"tue"
+    },
+    {
+      "title": "Wieger Punter, Odysseas Papapetrou, Minos Garofalakis: <b>OmniSketch: Efficient Multi-Dimensional High-Velocity Stream Analytics with Arbitrary Predicates.</b> VLDB'24",
+      "url": "https://arxiv.org/pdf/2309.06051.pdf",
+      "note": "Best paper award!",
+      "highlight":"true", "affiliation":"tue"
+    },
+    {
+      "title": "Alexandros Zeakis, Dimitrios Skoutas, Dimitris Sacharidis, Odysseas Papapetrou, Manolis Koubarakis: <b>TokenJoin: Efficient Filtering for Set Similarity Join with Maximum Weighted Bipartite Matching.</b> VLDB'23",
+      "url": "https://www.vldb.org/pvldb/vol16/p790-skoutas.pdf", "affiliation":"tue"
+    },
+    {
+      "title": "George Siachamis, Kyriakos Psarakis, Marios Fragkoulis, Odysseas Papapetrou, Arie van Deursen, Asterios Katsifodimos: <b>Adaptive Distributed Streaming Similarity Joins.</b> DEBS 2023",
+      "url": "https://dl.acm.org/doi/10.1145/3583678.3596891", "affiliation":"tue"
+    },
+    {
+      "title": "Hamid Shahrivari, Odysseas Papapetrou, George Fletcher: <b>Workload Prediction for Adaptive Approximate Query Processing.</b> Big Data 2022: 217-222",
+      "url": "https://ieeexplore.ieee.org/document/10020614", "affiliation":"tue"
+    },
+    {
+      "title": "Koen Minartz, Jens d'Hondt, Odysseas Papapetrou: <b>Correlation Detective: Multivariate Correlations Discovery in Static and Streaming Data.</b> VLDB 2022",
+      "url": "https://www.vldb.org/pvldb/vol15/p1266-papapetrou.pdf", "affiliation":"tue",
+      "note": "<a href=\"https://github.com/CorrelationDetective/public\"> (Code and Technical report) </a>  <a href=\"https://www.correlationdetective.com/\"> (Website) </a>"
+    },
+    {
+      "title": "Hamid Shahrivari, Matthaios Olma, Odysseas Papapetrou, Dimitrios Skoutas and Anastasia Ailamaki: <b>A Parallel and Distributed Approach for Diversified Top-k Best Region Search.</b> EDBT 2020",
+      "url": "https://opapapetrou.win.tue.nl/papers/EDBT20_draft.pdf", "affiliation":"tue"
+    },
+    {
+      "title": "Grigorios Chrysos, Odysseas Papapetrou, Dionisios Pnevmatikatos, Apostolos Dollas and Minos Garofalakis: <b>Data stream statistics over sliding windows: How to summarize 150 Million updates per second on a single node.</b> FPL 2019",
+      "url": "https://opapapetrou.win.tue.nl/papers/fpl19.pdf", "affiliation":"tue"
+    },
+    {
+      "title": "Matthaios Olma, Odysseas Papapetrou, Raja Appuswamy, Anastasia Ailamaki: <b>Taster: Self-Tuning, Elastic and Online Approximate Query Processing.</b> ICDE 2019",
+      "url": "https://opapapetrou.win.tue.nl/papers/taster.pdf", "affiliation":"tue"
+    },
+    {
+      "title": "Kaijie Zhu, George H. L. Fletcher, Nikolay Yakovets, Odysseas Papapetrou, Yuqing Wu: <b>Scalable temporal clique enumeration.</b> SSTD 2019: 120-129",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3340964.3340987", "affiliation":"tue"
+    },
+    {
+      "title": "Ioannis Demertzis, Stavros Papadopoulos, Odysseas Papapetrou, Antonios Deligiannakis, Minos N. Garofalakis: <b>Practical Private Range Search Revisited.</b> In Proc. SIGMOD 2016: 185-198",
+      "url": "https://opapapetrou.win.tue.nl/papers/SIGMOD16_RSSE.pdf",
+      "note": "Best of SIGMOD 2016 Papers",
+      "highlight":"true"
+    },
+    {
+      "title": "Odysseas Papapetrou, Minos Garofalakis: <b>Continuous Fragmented Skylines over Distributed Streams.</b> In Proc. 30th International Conference on Data Engineering (ICDE), 2014, pages 124-135, Chicago, IL, USA",
+      "url": "https://opapapetrou.win.tue.nl/papers/icde14.pdf",
+      "note": "<a href=\"https://opapapetrou.win.tue.nl/papers/icde14.pptx\"> (Slides) </a>"
+    },
+    {
+      "title": "Odysseas Papapetrou, Minos Garofalakis, Antonios Deligiannakis: <b>Sketch-based Querying of Distributed Sliding-Window Data Streams.</b> In Proc. 38th International Conference of Very Large Databases (VLDB), 2012, pages 992-1003, Istanbul, Turkey",
+      "url": "https://opapapetrou.win.tue.nl/papers/vldb12.pdf",
+      "note": "<a href=\"https://opapapetrou.win.tue.nl/papers/ecm-sketches.pptx\"> (Slides) </a>"
+    },
+    {
+      "title": "Odysseas Papapetrou, Ekaterini Ioannou, and Dimitrios Skoutas: <b>Efficient Discovery of Frequent Subgraph Patterns in Uncertain Graph Databases.</b> In: Proc. Extending Database Technology (EDBT), 2011, pages 355-366, Uppsala, Sweden. Also presented at Hellenic Data Management Symposium, 2011",
+      "url": "https://opapapetrou.win.tue.nl/papers/edbt11.pdf"
+    },
+    {
+      "title": "Odysseas Papapetrou, Ling Chen: <b>XStreamCluster: an efficient algorithm for streaming XML data clustering.</b> In Proc. Database Systems for Advanced Applications (DASFAA), 2011, pages 496-510, Hong Kong",
+      "url": "https://opapapetrou.win.tue.nl/papers/xstreamcluster.pdf",
+      "note":"<a href=\"https://opapapetrou.win.tue.nl/papers/XStreamCluster-long.pdf\"> (Technical report) </a>"
+    },
+    {
+      "title": "Odysseas Papapetrou, Sukriti Ramesh, Stefan Siersdorfer, Wolfgang Nejdl: <b>Optimizing Near Duplicate Detection for P2P Networks.</b> In Proc. IEEE International Conference on Peer-to-Peer Computing (P2P), 2010, pages 1-10, Delft, Netherlands",
+      "url": "https://opapapetrou.win.tue.nl/papers/NDD.pdf",
+      "note":"<a href=\"https://opapapetrou.win.tue.nl/papers/Presentation-p2pndd.pdf\"> (Slides) </a>"
+    },
+    {
+      "title": "Odysseas Papapetrou, George Papadakis, Ekaterini Ioannou, Dimitrios Skoutas: <b>Efficient Term Cloud Generation for Streaming Web Content.</b> In Proc. 10th International Conference on Web Engineering (ICWE), 2010, pages 385-399, Vienna, Austria",
+      "url": "https://opapapetrou.win.tue.nl/papers/effTermCloud.pdf"
+    },
+    {
+      "title": "Ekaterini Ioannou, Odysseas Papapetrou, Dimitrios Skoutas, Wolfgang Nejdl: <b>Efficient Semantic-Aware Detection of Near Duplicate Resources.</b> In Proc. 7th Extended Semantic Web Conference (ESWC), 2010, pages 136-150, Heraklion, Greece",
+      "url": "https://opapapetrou.win.tue.nl/papers/semAwareNDD.pdf"
+    },
+    {
+      "title": "Odysseas Papapetrou, Wolf Siberski, Norbert Fuhr: <b>Text Clustering for Peer-to-Peer Networks with Probabilistic Guarantees.</b> In Proc. 32nd European Conference on Information Retrieval (ECIR), 2010, pages 293-305, Milton Keynes, UK",
+      "url": "https://opapapetrou.win.tue.nl/papers/ecir10-cluster.pdf",
+      "note": "<a href=\"https://opapapetrou.win.tue.nl/papers/pcp2p-ecir-ext.pdf\"> (Technical report) </a> <a href=\"https://opapapetrou.win.tue.nl/papers/ecir-probabilisticclustering.ppt\"> (Slides) </a>"
+    },
+    {
+      "title": "Sukriti Ramesh, Odysseas Papapetrou, Wolf Siberski: <b>Optimizing Distributed Joins with Bloom Filters.</b> In Proc. Fifth International Conference on Distributed Computing and Internet Technologies (ICDCIT), 2008, pages 145-156, New Delhi, India",
+      "url": "https://opapapetrou.win.tue.nl/papers/icdcit08-djoins.pdf"
+    },
+    {
+      "title": "Loizos Michael, Wolfgang Nejdl, Odysseas Papapetrou, Wolf Siberski: <b>Improving distributed join efficiency with extended bloom filter operations.</b> In Proc. IEEE 21st International Conference on Advanced Information Networking and Applications (AINA), 2007, pages 187-194, Niagara Falls, Canada",
+      "url": "https://opapapetrou.win.tue.nl/papers/bfAINA.pdf"
+    },
+    {
+      "title": "Odysseas Papapetrou, Wolf Siberski, Wolf-Tilo Balke, Wolfgang Nejdl: <b>DHTs over Peer Clusters for Distributed Information Retrieval.</b> In Proc. IEEE 21st International Conference on Advanced Information Networking and Applications (AINA), 2007, pages 84-93, Niagara Falls, Canada",
+      "url": "https://opapapetrou.win.tue.nl/papers/PeerClusters.pdf"
+    },
+    {
+      "title": "Juri L. De Coi, Eelco Herder, Arne Koesling, Christoph Lofi, Daniel Olmedilla, Odysseas Papapetrou, and Wolf Siberski: <b>A model for competence gap analysis.</b> In Proc. International Conference on Web Information Systems and Technology (WEBIST), 2007, Barcelona, Spain"
+    },
+    {
+      "title": "Odysseas Papapetrou, Sebastian Michel, Matthias Bender, Gerhard Weikum: <b>On the Usage of Global Document Occurrences in Peer-to-Peer Information Systems.</b> In Proc. International Conference of Cooperative Information Systems (CoopIS), 2005, pages 310-328, Cyprus",
+      "url": "https://opapapetrou.win.tue.nl/papers/coopis05.pdf",
+      "note": "<a href=\"https://opapapetrou.win.tue.nl/papers/coopis05-presented.ppt\"> (Slides) </a>"
+    },
+    {
+      "title": "Odysseas Papapetrou, George A. Papadopoulos: <b>Aspect Oriented Programming for a component-based real life application: a case study.</b> In Proc. of Symposium of Applied Computing (SAC), 2004, pages 1554-1558, Cyprus",
+      "url": "https://opapapetrou.win.tue.nl/papers/sac04.pdf"
+    },
+    {
+      "title": "Odysseas Papapetrou, George Samaras: <b>IPMicra: Toward a Distributed and Adaptable Location Aware Web Crawler.</b> In Local Proc. Advances in Databases and Information Systems (ADBIS) 2004, Budapest, Hungary",
+      "url": "https://opapapetrou.win.tue.nl/papers/adbis04.pdf"
+    },
+    {
+      "title": "Odysseas Papapetrou, George Samaras: <b>Minimizing the Network Distance in Distributed Web Crawling.</b> In Proc. International Conference of Cooperative Information Systems (CoopIS), 2004, pages 581-596, Cyprus",
+      "url": "https://opapapetrou.win.tue.nl/papers/coopis04.pdf"
+    },
+    {
+      "title": "Odysseas Papapetrou, George Samaras: <b>IPMicra: An IP-address based Location Aware Distributed Web Crawler.</b> In Proc. International Conference on Internet Computing, 2004, pages 694-699, Nevada, USA",
+      "url": "https://opapapetrou.win.tue.nl/papers/IC04.pdf"
+    },
+    {
+      "title": "Odysseas Papapetrou, Stavros Papastavrou, George Samaras: <b>UCYMICRA: Distributed Indexing of the Web Using Migrating Crawlers.</b> In Proc. Advances in Databases and Information Systems (ADBIS), 2003, pages 133-147, Dresden, Germany",
+      "url": "https://opapapetrou.win.tue.nl/papers/adbis03.pdf"
+    }
+  ],
+  "PUBOther": [
+    {
+      "title": "Odysseas Papapetrou, Jens E. d'Hondt: <b>Multivariate Similarity Search - A Call for a New Breed of Similarity Search Algorithms.</b> ICDE 2024: 5662",
+      "url": "https://ieeexplore.ieee.org/document/10597715", "affiliation":"tue"
+    },
+    {
+      "title": "Jens E. d'Hondt, Odysseas Papapetrou, John Paparrizos: <b>Beyond the Dimensions: A Structured Evaluation of Multivariate Time Series Distance Measures.</b> ICDEW 2024: 107-112",
+      "url": "https://ieeexplore.ieee.org/document/10555114", "affiliation":"tue"
+    },
+    {
+      "title": "Ylaise van den Wildenberg, Wouter W. L. Nuijten, Odysseas Papapetrou: <b>Easy Spark.</b> EDBT/ICDT Workshops 2021", "affiliation":"tue"
+    },
+    {
+      "title": "Sergej Zerr, Odysseas Papapetrou, Elena Demidova: <b>HEALTH Z: Confidential Provider Selection in Collaborative Healthcare P2P Networks.</b> In Proc. PIR@SIGIR 2014: 1-6"
+    },
+    {
+      "title": "Christine Kopp, Michael Mock, Odysseas Papapetrou, Michael May: <b>Large-scale Online Mobility Monitoring with Exponential Histograms.</b> In Proc. BD3@VLDB 2013: 61-66."
+    },
+    {
+      "title": "Odysseas Papapetrou: <b>Approximate algorithms for efficient indexing, clustering, and classification in Peer-to-peer networks.</b> PhD thesis, University of Hanover, 2011. Advisor: Prof. Wolfgang Nejdl",
+      "url": "https://opapapetrou.win.tue.nl/papers/thesis-final.pdf",
+      "note": "<a href=\"https://opapapetrou.win.tue.nl/papers/thesis-presentation.pptx\"> (Slides) </a>"
+    },
+    {
+      "title": "Odysseas Papapetrou, Wolf Siberski, Stefan Siersdorfer: <b>Collaborative Classification over P2P networks.</b> In Proc. WWW (Companion Volume) 2011, pages 97-98, Hyderabad, India",
+      "url": "https://opapapetrou.win.tue.nl/papers/pp0217-papapetrou.pdf"
+    },
+    {
+      "title": "Odysseas Papapetrou, Wolf Siberski, Fabian Leitritz, Wolfgang Nejdl: <b>Exploiting Distribution Skew for Scalable P2P Text Clustering Databases.</b> In Proc. Information Systems and Peer-to-Peer Computing (DBISP2P) 2008, pages 1-12, Auckland, New Zealand",
+      "url": "https://opapapetrou.win.tue.nl/papers/vldb-dbisp.pdf"
+    },
+    {
+      "title": "Odysseas Papapetrou: <b>Full-text Indexing and Information Retrieval in P2P systems.</b> In Proc. Extending Database Technology PhD Workshop (EDBT), 2008, Nantes, France",
+      "url": "https://opapapetrou.win.tue.nl/papers/edbt08-fulltextindexingandir.pdf"
+    },
+    {
+      "title": "Odysseas Papapetrou: <b>On the Usage of Global Document Occurrences in Peer-to-Peer Information Systems.</b> MSc thesis, Max-Planck-Institut für Informatik and Universität des Saarlandes, 2005. Advisor: Prof. Gerhard Weikum",
+      "url": "https://opapapetrou.win.tue.nl/papers/thesismpi.pdf"
+    },
+    {
+      "title": "Odysseas Papapetrou, George Samaras: <b>Distributed location aware web crawling.</b> In Proc. WWW (Alternate Track Papers & Posters), 2004, pages 468-469, New York, USA",
+      "url": "https://opapapetrou.win.tue.nl/papers/www04poster.pdf"
+    },
+    {
+      "title": "Odysseas Papapetrou, Stavros Papastavrou, George Samaras: <b>Distributed Indexing of the Web using Migrating Crawlers.</b> In Proc. WWW (Alternate Track Papers & Posters), 2003, Budapest, Hungary",
+      "url": "https://opapapetrou.win.tue.nl/papers/www03poster.pdf"
+    }
+  ]
+}
