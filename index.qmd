@@ -1,8 +1,8 @@
 ---
-title: "Scalable Online Data Management (SOL-DM) group, TU/e"
+title: "Scalable Online Data Management (SODATA) group, TU/e"
 ---
 
-The **SOL-DM group** in the [Department of Mathematics and Computer Science](https://www.tue.nl/en/our-university/departments/mathematics-and-computer-science)
+The **SODATA group** in the [Department of Mathematics and Computer Science](https://www.tue.nl/en/our-university/departments/mathematics-and-computer-science)
 at [Eindhoven University of Technology](https://www.tue.nl/en/) aims to enable **interactive and scalable data science**  in an era of
 ever-growing data volumes and increasingly fast data streams. Our vision is to make large-scale
 data science responsive by design, allowing users and systems to reason over massive, continuously

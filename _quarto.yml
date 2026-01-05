@@ -11,11 +11,11 @@ params:
   setup_file: "_setup.qmd"
 
 website:
-  title: "Scalable Online Data Management (SOL-DM) group, TU/e"
+  title: "Scalable Online Data Management (SODATA) group, TU/e"
   navbar:
     title: false
     pinned: true
-    logo: logos/soldm.png
+    logo: logos/sodata.png
     left:
       - href: index.qmd
         text: Home

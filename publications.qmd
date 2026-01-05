@@ -1,9 +1,9 @@
 ---
-title: "SOL-DM publications"
+title: "SODATA publications"
 ---
 ```{python}
 #| echo: false
-#| output: asis 
+#| output: asis
 import json
 from html import escape
 from IPython.display import HTML, display
