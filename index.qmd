@@ -8,7 +8,7 @@ ever-growing data volumes and increasingly fast data streams. Our vision is to m
 data science responsive by design, allowing users and systems to reason over massive, continuously
 evolving data in near real time, typically with millisecond- to sub-second latency.
 
-We focus on the design of algorithms and data structures that **deliver responses within seconds**,
+We focus on the design of algorithms and data structures that **deliver responses within (milli)seconds**,
 enabling meaningful human interaction with data and timely automated decision making. Such
 responsiveness is essential to
 keep users engaged in the data science workflow, to ensure results remain current in fast-paced streaming

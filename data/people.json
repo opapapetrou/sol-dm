@@ -2,7 +2,7 @@
   "PEOPLEActive": [
     { "Name": "Odysseas Papapetrou",
       "Role": "Group leader",
-      "Description": "Odysseas Papapetrou is an Associate Professor in the Department of Mathematics and Computer Science at TU/e, where he leads the <b>Scalable Online Data Management (SOL-DM) group</b>. His research focuses on streaming data management, large-scale datasets, and time-series analytics.",
+      "Description": "Odysseas Papapetrou is an Associate Professor in the Department of Mathematics and Computer Science at TU/e, where he leads the <b>Scalable Online Data Management (SODATA) group</b>. His research focuses on streaming data management, large-scale datasets, and time-series analytics.",
       "Photo": "people/odysseas.jpeg",
       "CD": ["o DOT papapetrou AT tue DOT nl"],
       "location": "MetaForum 7.090",
